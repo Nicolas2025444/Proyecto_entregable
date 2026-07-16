@@ -241,7 +241,7 @@ class _BookingScreenState extends State<BookingScreen> {
                       children: [
                         CircleAvatar(
                           radius: 24,
-                          backgroundColor: colorScheme.primary.withOpacity(0.1),
+                          backgroundColor: colorScheme.primary.withValues(alpha: 0.1),
                           child: Icon(Icons.person_pin, color: colorScheme.primary, size: 30),
                         ),
                         const SizedBox(width: 12),
@@ -295,7 +295,7 @@ class _BookingScreenState extends State<BookingScreen> {
                           shape: BoxShape.circle,
                         ),
                         todayDecoration: BoxDecoration(
-                          color: colorScheme.primary.withOpacity(0.2),
+                          color: colorScheme.primary.withValues(alpha: 0.2),
                           shape: BoxShape.circle,
                         ),
                         todayTextStyle: TextStyle(color: colorScheme.primary, fontWeight: FontWeight.bold),

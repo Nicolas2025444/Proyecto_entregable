@@ -49,7 +49,7 @@ class Proyecto3App extends StatelessWidget {
           cardTheme: CardThemeData(
             elevation: 2,
             color: Colors.white,
-            shadowColor: const Color(0xFF1E293B).withOpacity(0.06),
+            shadowColor: const Color(0xFF1E293B).withValues(alpha: 0.06),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
             ),
